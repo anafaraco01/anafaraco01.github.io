@@ -1,0 +1,157 @@
+body{
+    background-image: url("/img/profile-background.jpg");
+    background-color: rgba(152, 169, 185, 0.956);
+    background-size: 1500px; 
+}
+
+ul.aside{
+    background-color: rgb(136, 242, 122);
+}
+
+a.aside{
+    color:rgb(0, 0, 0);
+}
+
+.personal-info, .pre-education{
+    padding-bottom: 20px;
+}
+
+.personal-info{
+    padding-top: 70px;
+    background-color: rgb(255, 157, 0);
+    padding-left: 20px;
+} 
+
+.information, .extra-curricular-act{
+    text-align: center;
+}
+
+.pre-education{
+    background-color: rgb(0, 255, 221);
+} 
+.extra-curricular-act{
+    background-color: rgb(0, 217, 255);
+} 
+.motivation{
+    background-color: rgb(0, 255, 4);
+} 
+
+.title{
+    margin-left: 150px;
+    padding-top: 1000px;
+}
+
+#profile-pic{
+    height: 450px;
+    transform: rotate(15deg);
+    float: right;
+    margin-top: -240px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+
+#family-pic{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#school-pic{
+    height: 300px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+p,h3, pre, figcaption, li{
+    font-size: 20px;
+}
+
+pre{
+    margin-top: 0;
+}
+
+figcaption{
+    margin-bottom: 30px;
+}
+
+.subjects{
+    margin-left: 300px;
+}
+
+#vertical-pic-first-line{
+    height: 300px;
+}
+
+#horizontal-pic{
+    height: 250px;
+}
+
+#vertical-pic-third-line{
+    height: 250px;
+}
+
+
+/*
+
+
+
+.one{
+    clear: auto;
+    float: left;
+    margin-left: 70px;
+}
+
+.two{
+    float: right;
+    clear: auto;
+    margin-right: 190px;
+}
+
+
+
+h1{
+    font-size: 85px;
+    font-family: century gothic;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-family: century gothic;
+    margin-top: 60px; 
+    margin-bottom: 40px;
+}
+
+
+
+.first{
+    height: 500px;
+}
+
+.b1{
+    margin-left: 90px;
+}
+
+.second{
+    width: 1240px;
+    margin-left: 90px;
+}
+
+.b3{
+    margin-left: 90px;
+}
+
+.fourth{
+    margin-left: 90px;
+    width: 1240px;
+}
+
+
+
+pre{
+    font-family: century gothic;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 7px;
+}*/

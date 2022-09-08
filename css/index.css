@@ -1,0 +1,22 @@
+body{
+    background-image: url("/img/index-background.jpg");
+    background-color: rgba(152, 169, 185, 0.956);
+    background-size: 1500px; 
+}
+
+.hz-logo{
+    height: 100px;
+    float: right;
+}
+
+ul.aside{
+    background-color: rgb(242, 168, 122);
+}    
+
+a.aside{
+    color:blue;
+}
+
+article{
+    background-color: aqua;
+}    

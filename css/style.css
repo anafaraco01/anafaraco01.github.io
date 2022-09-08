@@ -1,0 +1,96 @@
+header{
+    height: 110px;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 90px;
+}
+
+h2{
+    font-family: 'Apple Chancery';
+    font-size: 60px;
+    margin-left: 30px;
+}
+
+h1, h2, .hz-logo{
+    display: inline;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+ul.nav{
+    list-style-type: none;
+    
+}
+
+ul.nav, a.nav{
+    padding: 10px;
+}
+
+li.nav{
+    display: inline;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+a.nav{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+a.nav:hover{
+    background-color: rgb(104, 181, 178);
+}
+
+a.nav:active{
+    background-color: rgb(189, 186, 195);
+}
+
+main, a.nav, footer,h1, pre{
+    font-family: century gothic;
+}
+
+ul.aside{
+    overflow: auto;
+    padding-right: 20px;
+}
+
+.aside-title{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+aside{
+    float: left;
+    margin-left: 40px;
+    padding-right: 30px;
+    margin-top: -15px;
+}
+
+li.aside{
+    width: 400px;
+    padding: 10px;
+}
+
+#link-border{
+    border-bottom: 1px solid black;
+}
+
+a.aside{
+    font-size: 20px;
+}
+
+article{
+    margin-left: 550px;
+    margin-right: 40px;
+    margin-bottom: 25px;
+}
