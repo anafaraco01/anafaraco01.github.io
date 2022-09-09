@@ -1,5 +1,5 @@
 body{
-    background-image: url("/img/index-background.jpg");
+    background-image: url("/img/index.jpg");
     background-color: rgba(152, 169, 185, 0.956);
     background-size: 1500px; 
 }
@@ -18,5 +18,5 @@ a.aside{
 }
 
 article{
-    background-color: rgba(206, 135, 84, 0.983);
+    background-color: rgba(145, 81, 151, 0.983);
 }    

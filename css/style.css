@@ -27,7 +27,6 @@ nav{
 
 ul.nav{
     list-style-type: none;
-    
 }
 
 ul.nav, a.nav{
@@ -93,4 +92,8 @@ article{
     margin-left: 550px;
     margin-right: 40px;
     margin-bottom: 25px;
+}
+
+footer{
+    text-align: center;
 }

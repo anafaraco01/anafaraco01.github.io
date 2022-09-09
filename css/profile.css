@@ -1,7 +1,7 @@
 body{
-    background-image: url("/img/profile-background.jpg");
+    background-image: url("/img/profile.jpg");
     background-color: rgba(152, 169, 185, 0.956);
-    background-size: 1500px; 
+    background-size: auto; 
 }
 
 ul.aside{
@@ -12,7 +12,7 @@ a.aside{
     color:rgb(0, 0, 0);
 }
 
-.personal-info, .pre-education{
+.personal-info, .pre-education, .extra-curricular-act, .motivation{
     padding-bottom: 20px;
 }
 
@@ -91,67 +91,11 @@ figcaption{
     height: 250px;
 }
 
-
-/*
-
-
-
-.one{
-    clear: auto;
-    float: left;
-    margin-left: 70px;
+#ict-pic{
+    height: 250px;
+    margin-left: 155px;
 }
 
-.two{
-    float: right;
-    clear: auto;
-    margin-right: 190px;
+.ordered-list{
+    margin-left: 100px;
 }
-
-
-
-h1{
-    font-size: 85px;
-    font-family: century gothic;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-h2{
-    font-family: century gothic;
-    margin-top: 60px; 
-    margin-bottom: 40px;
-}
-
-
-
-.first{
-    height: 500px;
-}
-
-.b1{
-    margin-left: 90px;
-}
-
-.second{
-    width: 1240px;
-    margin-left: 90px;
-}
-
-.b3{
-    margin-left: 90px;
-}
-
-.fourth{
-    margin-left: 90px;
-    width: 1240px;
-}
-
-
-
-pre{
-    font-family: century gothic;
-    font-size: 25px;
-    margin-top: 0;
-    margin-bottom: 7px;
-}*/
