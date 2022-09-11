@@ -4,6 +4,10 @@ body{
     background-size: 100%;
 }
 
-a.aside{
+a.aside, .faq-go-to-this-links{
     color:blue;
+}
+
+.footer-text{
+    margin-top: -13px;
 }

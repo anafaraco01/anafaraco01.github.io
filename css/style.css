@@ -97,6 +97,20 @@ article{
     margin-bottom: 25px;
 }
 
+details{ /*For the FAQ and the Blog Page*/
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+summary{ /*For the FAQ and the Blog Page*/
+    font-weight: bold;
+}
+
+#first-feedback, #ict-field-of-work, #programming-experience, #study-choice, #swot, #print, #scan, #buy, #covid, #book, #parking{ /*For the FAQ and the Blog Page*/
+    border-bottom: solid black 2px;
+}
+
 footer{
     text-align: center;
+    font-size: 20px;
 }

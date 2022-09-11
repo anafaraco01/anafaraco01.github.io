@@ -10,9 +10,25 @@ body{
 }
 
 ul.aside{
-    background-color: rgb(248, 255, 41);
+    background-color: rgb(255, 247, 0);
 }    
 
 a.aside{
     color:blue;
 }  
+
+h3{
+    font-size: 30px;
+}
+
+.paragraph{
+    font-size: 22px;
+}
+
+#impossible-pic{
+    margin-left: 220px;
+}
+
+#help-pic{
+    margin-left: 120px;
+}
