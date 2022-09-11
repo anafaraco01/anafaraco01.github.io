@@ -22,27 +22,64 @@
         <li class="nav"><a class="nav" href="profile.html">Profile</a></li>
         <li class="nav"><a class="nav" href="dashboard.html">Dashboard</a></li>
         <li class="nav"><a class="nav" href="faq.html">FAQ</a></li>
-        <li class="nav"><a class="nav" href="blog.html">Blog</a></li>
+        <li class="nav"><a id="active" class="nav" href="blog.html">Blog</a></li>
       </ul>
     </nav>
 
     <main>
       <aside>
         <ul class="aside">
-          <p class="aside-title">TITLE:</p>
-          <li class="aside" id="link-border"><a class="aside" href="#personal-info">TEXT</a></li>
-          <li class="aside"><a class="aside" href="#motivation">TEXT</a></li>
+          <p class="aside-title">POSTS:</p>
+          <li class="aside" id="link-border"><a class="aside" href="#study-choice">Study Choice</a></li>
+          <li class="aside" id="link-border"><a class="aside" href="#swot">Personal SWOT analysis</a></li>
+          <li class="aside" id="link-border"><a class="aside" href="#programming-experience">Programming Experience</a></li>
+          <li class="aside" id="link-border"><a class="aside" href="#first-feedback">First Feedback</a></li>
+          <li class="aside"><a class="aside" href="#ict-field-of-work">ICT Field of Work</a></li>
         </ul>
       </aside>
 
       <article>
-        <h1>TITLE</h1>
+        <h1>POSTS FEED</h1>
+        <details open>
+          <summary id="study-choice">Study Choice</summary>
+          <p>STUDY CHOICE ACTIVITIES</p>
+          <ul>
+            <li>I took computer science class for two years in high school.</li>
+          </ul>
+          <p>STUDY CHOICE MOTIVATION</p>
+          <ol>
+            <li>I really enjoy coding. It is something that interests me a lot.</li>
+            <li>I think knowing how to... <a class="read-more" href="posts/study-choice.html" target="_blank">read more</a></li>
+          </ol>  
+        </details>
+
+        <details open>
+            <summary id="swot">Personal SWOT Analysis</summary>
+            <p>STRENGHTS:</p>
+            <ul class="strenghts">
+              <li>Team leader</li>
+              <li>Competitive</li>
+              <li>Extrovert</li>
+              <li>Creative... <a class="read-more" href="posts/personal-swot-analysis.html" target="_blank">read more</a></li>
+            </ul>  
+        </details>
+
+        <details open>
+          <summary id="programming-experience">Programming Experience</summary>
+          <p><a class="read-more" href="posts/programming-experience.html" target="_blank">read more</a></p>
+        </details>
+
+        <details open>
+          <summary id="first-feedback">First Feedback</summary>
+          <p>Hey Ana, welcom to the program! Great to read about your motivation for this study. Our study fits your description where you mention wanting to create new things and be challenged. Since this study is has a focus on programming and not just theory... <a class="read-more" href="posts/first-feedback.html" target="_blank">read more</a></p>
+        </details>
+
+        <details open>
+          <summary id="ict-field-of-work">ICT Field of Work</summary>
+          <p><a class="read-more" href="posts/ict-field-of-work.html" target="_blank">read more</a></p>
+        </details>
       </article>
     </main>
-
-    <footer>
-      text here
-    </footer>
   </body>
 
 </html>

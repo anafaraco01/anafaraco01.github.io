@@ -3,3 +3,20 @@ body{
     background-color: rgba(152, 169, 185, 0.956);
     background-size: 1500px; 
 }
+
+a.aside, .read-more{
+    color:blue;
+}
+
+details{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+summary{
+    font-weight: bold;
+}
+
+#first-feedback, #ict-field-of-work, #programming-experience, #study-choice, #swot{
+    border-bottom: solid black 2px;
+}

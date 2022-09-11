@@ -1,0 +1,62 @@
+#world-pic{
+    height: 240px;
+    margin-left: 140px;
+}
+
+article{
+    margin-left: 380px;
+}
+
+article, h1{
+    font-family: century gothic;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p, li{
+    font-size: 20px;
+}
+
+.strenghts, .weaknesses, .opportunities, .threats{
+    height: 240px;
+    width: 240px;
+    padding: 40px;
+}
+
+.strenghts{
+    background-color: rgb(42, 165, 155);
+}
+
+.weaknesses{
+    background-color: rgb(92, 188, 109);
+}
+
+.opportunities{
+    background-color: rgb(42, 118, 165);
+}
+
+.threats{
+    background-color: rgb(75, 136, 34);
+}
+
+.column{
+    display:inline-block;
+   width:321px;
+   vertical-align:top;
+}
+
+#right-column{
+    margin-left: 20px;
+}
+
+.feedback{
+    margin-left: 50px;
+    margin-right: 50px;
+}
