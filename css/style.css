@@ -60,12 +60,17 @@ main, a.nav, footer,h1, pre{
 ul.aside{
     overflow: auto;
     padding-right: 20px;
+    margin-top: 0;
 }
 
 .aside-title{
     font-weight: bold;
     font-size: 20px;
     text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 0;
+    
 }
 
 aside{

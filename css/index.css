@@ -9,7 +9,7 @@ body{
     float: right;
 }
 
-ul.aside{
+ul.aside, .aside-title{
     background-color: rgb(255, 247, 0);
 }    
 
