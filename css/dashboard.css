@@ -7,3 +7,40 @@ body{
 a.aside{
     color:blue;
 }
+
+main{
+    text-align: center;
+}
+
+th, td{
+    border: 2px solid black;
+}
+
+th{
+    border: 4px solid black;
+}
+
+table{
+    margin-left: 16px;
+}
+
+progress{
+    width: 800px;
+}
+
+.percentage-progress-bar{
+    margin-bottom: 0;
+}
+
+#nbsa{
+    margin-left: 400px;
+}
+
+#my-progress{
+    margin-left: -760px;
+    margin-top: 0;
+}
+
+.second-figcaption{
+    margin-bottom: 15px;
+}
