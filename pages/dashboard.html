@@ -31,15 +31,15 @@
         <h1>ICT FIRST YEAR</h1>
         <table>
           <tr>
-            <th rowspan="8">Semester 1</th>
-            <th rowspan="6">Block 1<br>Computer Science</th>
-            <th>Course</th>
-            <th>EC</th> 
-            <th>Exam</th>
-            <th>Grade</th>
+            <th rowspan="8" id="done">Semester 1</th>
+            <th rowspan="6" id="done">Block 1<br>Computer Science</th>
+            <th id="done">Course</th>
+            <th id="done">EC</th> 
+            <th id="done">Exam</th>
+            <th id="done">Grade</th>
           </tr>
           <tr>
-            <td>Program- & Career Orientation (PCO)</td>
+            <td id="done">Program- & Career Orientation (PCO)</td>
             <td>2.5</td>
             <td>Assessment website</td> 
             <td>*</td>
@@ -139,14 +139,14 @@
             <td>*</td>
           </tr>
         </table>
+
         <section>
-          <h3>Negative Binding Study Advice (NBSA) Progress Bar</h3>
-          <p id="nbsa" class="percentage-progress-bar">45 EC</p>
-          <progress value="45" max="60"></progress>
-          <figcaption>NBSA</figcaption>
-          <p id="my-progress" class="percentage-progress-bar">0 EC</p>
+          <h3>Progress Bar for EC</h3>
+          <p id="nbsa">45 EC</p>
           <progress value="0" max="60"></progress>
-          <figcaption class="second-figcaption">MY PROGRESS</figcaption>
+          <p id="nbsa-boundary">NBSA</p>
+          <p class="ec">0 EC</p>
+          <div class="vertical-line"></div>
         </section>
     </main>
   </body>
