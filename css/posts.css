@@ -64,3 +64,28 @@ p, li{
 article.programming-experience{
     margin-right: 380px;
 }
+
+article.ict-companies{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#google-pic, #nintendo-pic, #alibaba-pic{
+    height: 300px;
+}
+
+#google-pic, #alibaba-pic{
+    margin-left: 350px;
+}
+
+#nintendo-pic{
+    margin-left: 270px;
+}
+
+.citation{
+    text-align: center;
+}
+
+#alibaba-pic{
+    margin-bottom: 20px;
+}
