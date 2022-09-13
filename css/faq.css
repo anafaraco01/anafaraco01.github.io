@@ -11,3 +11,7 @@ a.aside, .faq-go-to-this-links{
 .footer-text{
     margin-top: -13px;
 }
+
+ul.aside, .aside-title{
+    background-color: rgb(255, 255, 255);
+} 
