@@ -4,6 +4,11 @@ header{
     height: 110px;
 }
 
+.container{ /*Grid layout for index, profile, FAQ and blog pages*/
+    display: grid;
+    grid-template-columns: 550px 1fr;
+}
+
 h1{ /*h1 was used for the titles of the articles and the title in the header section*/
     font-weight: normal;
     font-size: 90px;
@@ -107,7 +112,6 @@ a.aside{
 }
 
 article{ /*Article general style*/
-    margin-left: 550px;
     margin-right: 40px;
     margin-bottom: 25px;
 }
