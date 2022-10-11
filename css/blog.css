@@ -1,9 +1,11 @@
+/*This CSS page gives specific style to the blog page*/
+
 body{
     background-image: url("/img/blog.jpg");
-    background-color: rgba(152, 169, 185, 0.956);
+    background-color: rgba(152, 169, 185, 0.956); /*A background color is given in case the background image does not load*/
     background-size: 1500px; 
 }
 
-a.aside, .read-more{
+.read-more{ /*Read more links*/
     color:blue;
 }

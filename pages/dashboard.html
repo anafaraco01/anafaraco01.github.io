@@ -5,18 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/style.css"><!--Link to the general CSS style-->
+    <link rel="stylesheet" href="../css/dashboard.css"><!--Link to the dashboard specific CSS style-->
+    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css"><!--Link to the family font-->
     <title>DASHBOARD</title>
   </head>
 
   <body>
-    <header>
+    <header><!--Header (Dashboard, Phrase)-->
       <h1>DASHBOARD</h1>
       <h2>Ready to see your progress?</h2>
     </header>
 
-    <nav>
+    <nav><!--Navigation Bar-->
       <ul class="nav">
         <li class="nav"><a class="nav" href="../index.html">Home</a></li>
         <li class="nav"><a class="nav" href="profile.html">Profile</a></li>
@@ -28,8 +29,8 @@
 
     <main>
       <h1>ICT FIRST YEAR</h1>
-      <table>
-        <tr>
+      <table><!--The id 'done' is given to the current or completed subjects-->
+        <tr><!--First Row, Headings-->
           <th rowspan="8" id="done">Semester 1</th>
           <th rowspan="6" id="done">Block 1<br>Computer Science</th>
           <th id="done">Course</th>
@@ -37,20 +38,20 @@
           <th id="done">Exam</th>
           <th id="done">Grade</th>
         </tr>
-        <tr>
+        <tr><!--Block 1-->
           <td id="done">Program- & Career Orientation (PCO)</td>
           <td>2.5</td>
           <td>Assessment website</td> 
           <td>*</td>
         </tr>
         <tr>
-          <td>Computer Science Basics (CSB)</td>
+          <td id="done">Computer Science Basics (CSB)</td>
           <td>5</td>
           <td>Written knowledge test</td> 
           <td>*</td>
         </tr>
         <tr>
-          <td>Programming Basics (PBA)</td>
+          <td id="done">Programming Basics (PBA)</td>
           <td>5</td>
           <td>Case study exam</td> 
           <td>*</td>
@@ -67,7 +68,7 @@
           <td>Portfolio</td> 
           <td>*</td>
         </tr>
-        <tr>
+        <tr><!--Block 2-->
           <th rowspan="2">Block 2<br>Game Development</th>
           <td rowspan="2">Object-Oriented programming (OOP)</td>
           <td rowspan="2">10</td>
@@ -78,7 +79,7 @@
           <td>Case study exam</td>
           <td>*</td>
         </tr>
-        <tr>
+        <tr><!--Block 3-->
           <th rowspan="11">Semester 2</th>
           <th rowspan="4">Block 3<br>Modern Software Development</th> 
           <td>Framework Development 1 (FDE1)</td>
@@ -100,7 +101,7 @@
           <td>Case study exam</td>
           <td>*</td>
         </tr>
-        <tr>
+        <tr><!--Block 4-->
           <th rowspan="7">Block 4<br>Modern Software Development</th> 
           <td rowspan="3">Framework Project 2 (FPR2)</td>
           <td rowspan="3">10</td>
@@ -139,15 +140,16 @@
         </tr>
       </table>
 
-      <section>
+      <section><!--Progress Bar-->
         <h3>Progress Bar for EC</h3>
         <p id="nbsa">45 EC</p>
+        <!--60 EC is the maximum, the 'value' determines current EC obtained-->
         <progress value="0" max="60"></progress>
         <p id="nbsa-boundary">NBSA</p>
         <p class="ec">0 EC</p>
+        <!--Red line that shows the NBSA boundary-->
         <div class="vertical-line"></div>
       </section>
     </main>
   </body>
-
 </html>

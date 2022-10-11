@@ -1,21 +1,15 @@
+/*This CSS page gives specific style to the index page*/
+
 body{
     background-image: url("/img/index.jpg");
-    background-color: rgba(152, 169, 185, 0.956);
+    background-color: rgba(152, 169, 185, 0.956); /*A background color is given in case the background image does not load*/
     background-size: 1500px; 
 }
 
 .hz-logo{
     height: 100px;
     float: right;
-}
-
-ul.aside, .aside-title{
-    background-color: rgb(255, 255, 255);
-}    
-
-a.aside{
-    color:blue;
-}  
+}   
 
 h3{
     font-size: 30px;
@@ -25,10 +19,10 @@ h3{
     font-size: 22px;
 }
 
-#impossible-pic{
+#impossible-pic{ /*Picture that talks about impossible*/
     margin-left: 220px;
 }
 
-#help-pic{
+#help-pic{ /*Picture of the guy that want to help with circular wheels*/
     margin-left: 120px;
 }

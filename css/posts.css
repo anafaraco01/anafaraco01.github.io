@@ -1,14 +1,7 @@
-#world-pic{
-    height: 240px;
-    margin-left: 140px;
-}
+/*This CSS page gives some specific and common style to the posts pages*/
 
-article{
-    margin-left: 380px;
-}
-
-article, h1{
-    font-family: century gothic;
+article, h1{ /*Common styling for the posts*/
+    font-family: century-gothic;
 }
 
 h1{
@@ -24,7 +17,16 @@ p, li{
     font-size: 20px;
 }
 
-.strenghts, .weaknesses, .opportunities, .threats{
+#world-pic{ /*Picture in the 'Study Choice' post*/
+    height: 240px;
+    margin-left: 140px;
+}
+
+article{
+    margin-left: 380px;
+}
+
+.strenghts, .weaknesses, .opportunities, .threats{ /*Specific styling for the 'Personal SWOT Analysis' post*/
     height: 240px;
     width: 240px;
     padding: 40px;
@@ -46,26 +48,26 @@ p, li{
     background-color: rgb(75, 136, 34);
 }
 
-.column{
+.column{ /*Class assigned for the columns*/
     display:inline-block;
-   width:321px;
-   vertical-align:top;
+    width:321px;
+    vertical-align:top;
 }
 
-#right-column{
+#right-column{ /*ID assigned for the right column (weaknesses and threats)*/
     margin-left: 20px;
 }
 
-.feedback{
+article.feedback{ /*Class assigned to the article of the 'first feedback' post*/
     margin-left: 50px;
     margin-right: 50px;
 }
 
-article.programming-experience{
+article.programming-experience{ /*Class assigned to the article of the 'programming experience' post*/
     margin-right: 380px;
 }
 
-article.ict-companies{
+article.ict-companies{ /*Class assigned to the article of the 'profession' post*/
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -82,10 +84,10 @@ article.ict-companies{
     margin-left: 270px;
 }
 
-.citation{
-    text-align: center;
-}
-
 #alibaba-pic{
     margin-bottom: 20px;
+}
+
+.citation{
+    text-align: center;
 }

@@ -1,13 +1,15 @@
+/*This CSS page gives the general style to all the html pages*/
+
 header{
     height: 110px;
 }
 
-h1{
+h1{ /*h1 was used for the titles of the articles and the title in the header section*/
     font-weight: normal;
     font-size: 90px;
 }
 
-h2{
+h2{ /*h2 was used for the phrases in the header*/
     font-family: 'Apple Chancery';
     font-size: 60px;
     margin-left: 30px;
@@ -17,16 +19,31 @@ h1, h2, .hz-logo{
     display: inline;
 }
 
-nav{
+main, a.nav, footer,h1, pre{
+    font-family: century-gothic;
+}
+
+/*Common styling for navigation bar and aside menu*/
+ul.nav, ul.aside{
+    list-style-type: none;
+}
+
+a.nav:hover, a.aside:hover, li.aside:hover{
+    background-color: rgb(104, 181, 178);
+}
+
+a.nav, a.aside{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+/*Navigation bar style*/
+nav{ 
     background-color: rgb(255, 255, 255);
     margin-top: 15px;
     margin-left: 300px;
     margin-right: 300px;
     text-align: center;
-}
-
-ul.nav{
-    list-style-type: none;
 }
 
 ul.nav, a.nav{
@@ -40,25 +57,16 @@ li.nav{
 }
 
 a.nav{
-    color: black;
-    text-decoration: none;
     font-size: 22px;
 }
 
-a.nav:hover{
-    background-color: rgb(104, 181, 178);
-}
-
 a.nav#active{
-    background-color: rgb(68, 121, 141);
+    background-color: rgb(68, 121, 141); /*Show current page*/
 }
 
-main, a.nav, footer,h1, pre{
-    font-family: century gothic;
-}
-
+/*Aside menu style*/
 ul.aside{
-    overflow: auto;
+    overflow: auto; 
     padding-right: 20px;
     margin-top: 0;
 }
@@ -70,52 +78,58 @@ ul.aside{
     padding-top: 7px;
     padding-bottom: 7px;
     margin-bottom: 0;
-    
+    margin-left: 24px;
 }
 
 aside{
     float: left;
-    margin-left: 40px;
+    margin-left: 20px;
     padding-right: 30px;
     margin-top: -15px;
-    position: -webkit-sticky;
-    position: sticky;
+    position: -webkit-sticky; /*Sticky aside menu for Safari*/
+    position: sticky; /*Sticky aside menu*/
     top: 0;
 }
 
 li.aside{
     width: 400px;
     padding: 10px;
+    text-align: center;
 }
 
 #link-border{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid black; /*Border line that divides the links in the aside menu*/
 }
 
 a.aside{
     font-size: 20px;
+    display: block;
 }
 
-article{
+article{ /*Article general style*/
     margin-left: 550px;
     margin-right: 40px;
     margin-bottom: 25px;
 }
 
-details{ /*For the FAQ and the Blog Page*/
+details{ /*Styling specifically for the FAQ and the Blog Page*/
     font-size: 22px;
-    margin-bottom: 10px;
+    padding: 10px;
 }
 
-summary{ /*For the FAQ and the Blog Page*/
+details:hover{ /*Styling specifically for the FAQ and the Blog Page*/
+    background-color: rgb(104, 181, 150);
+}
+
+summary{ /*Styling specifically for the FAQ and the Blog Page*/
     font-weight: bold;
 }
 
-#first-feedback, #profession, #programming-experience, #study-choice, #swot, #print, #scan, #buy, #covid, #book, #parking{ /*For the FAQ and the Blog Page*/
+#first-feedback, #profession, #programming-experience, #study-choice, #swot, #print, #scan, #buy, #covid, #book, #parking{ /*Border line that divides questions in the FAQ page and posts in the Blog Page*/
     border-bottom: solid black 2px;
 }
 
-footer{
+footer{ /*Footer style*/
     text-align: center;
     font-size: 20px;
 }

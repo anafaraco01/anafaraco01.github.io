@@ -1,40 +1,38 @@
+/*This CSS page gives specific style to the profile page*/
+
 body{
     background-image: url("/img/profile.jpg");
-    background-color: rgba(152, 169, 185, 0.956);
+    background-color: rgba(152, 169, 185, 0.956); /*A background color is given in case the background image does not load*/
     background-size: 100%;
 }
 
-a.aside{
-    color:rgb(0, 0, 0);
-}
-
-.personal-info, .pre-education, .extra-curricular-act{
+.personal-info, .pre-education, .extra-curricular-act{ /*Common formatting for the articles*/
     padding-bottom: 20px;
 }
-
-.personal-info{
-    padding-top: 70px;
-    background-color: rgb(255, 157, 0);
-    padding-left: 20px;
-} 
 
 .information, .extra-curricular-act{
     text-align: center;
 }
 
-.extra-curricular-act{
+.personal-info{ /*First Artcile*/
+    padding-top: 70px;
     background-color: rgb(255, 157, 0);
-}
+    padding-left: 20px;
+} 
 
-.pre-education{
+.pre-education{ /*Second Artcile*/
     background-color: rgb(235, 182, 23);
 }
 
-.title{
+.extra-curricular-act{ /*Third Artcile*/
+    background-color: rgb(255, 157, 0);
+}
+
+.title{ /*'Who am I' title*/
     margin-left: 150px;
 }
 
-#profile-pic{
+#profile-pic{ /*Profile picture*/
     height: 450px;
     transform: rotate(15deg);
     float: right;
@@ -43,43 +41,43 @@ a.aside{
     margin-bottom: 40px;
 }
 
-#family-pic{
+#family-pic{ /*Family pictures*/
     height: 130px;
     width: 130px;
-    border-radius: 50%;
-    margin: auto;
+    border-radius: 50%; /*Makes it a circular shape*/
+    margin: auto; /*Makes it a circular shape*/
 }
 
-#school-pic{
+#school-pic{ /*School pictures*/
     height: 300px;
     margin-top: 0;
     padding-top: 0;
 }
 
-p,h3, pre, figcaption, li{
+p, h3, pre, figcaption, li{
     font-size: 20px;
 }
 
-pre{
+pre{ /*Used as figcaption for the family and extra-curricular activities pictures*/
     margin-top: 0;
 }
 
-figcaption{
+figcaption{ /*Used for the school pictures*/
     margin-bottom: 30px;
 }
 
-.subjects{
+.subjects{ /*Class holding the list of subjects*/
     margin-left: 300px;
 }
 
-#vertical-pic-first-line{
+#vertical-pic-first-line{ /*ID assigned to the first row of pictures of the extra-curricular activites*/
     height: 300px;
 }
 
-#horizontal-pic{
+#horizontal-pic{ /*ID assigned to the second and fourth row of pictures of the extra-curricular activites*/
     height: 250px;
 }
 
-#vertical-pic-third-line{
+#vertical-pic-third-line{ /*ID assigned to the third row of pictures of the extra-curricular activites*/
     height: 250px;
 }

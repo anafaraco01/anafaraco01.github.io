@@ -1,64 +1,70 @@
+/*This CSS page gives specific style to the dashboard page*/
+
 body{
     background-image: url("/img/dashboard.jpg");
-    background-color: rgba(152, 169, 185, 0.956);
+    background-color: rgba(152, 169, 185, 0.956); /*A background color is given in case the background image does not load*/
     background-size: 100%;
-}
-
-a.aside{
-    color:blue;
 }
 
 main{
     text-align: center;
 }
 
-td{
+td{ /*Border for the whole table*/
     border: 2px solid black;
 }
 
-th{
+th{ /*Headings in the table*/
     border: 4px solid black;
 }
 
-th, td{
+th, td{ 
     background-color: beige;
 }
 
 table{
-    margin-left: 16px;
+    margin-left: 0;
 }
 
-progress{
+progress{ /*Progress bar*/
     width: 800px;
+    background-color: green;
+}
+
+#nbsa{ /*Literally text written '45 EC' in the progress bar area*/
+    margin-top: -38px;
+    margin-bottom: 0;
+}
+
+#nbsa-boundary{ /*Literally text written 'NBSA' in the progress bar area*/
+    margin-top: 20px;
 }
 
 #nbsa, #nbsa-boundary{
     margin-left: 400px;
-    margin-bottom: 0;
     margin-top: 0;
 }
 
-#nbsa{
-    margin-top: -30px;
+#done{ /*Class assigned to current or done courses*/
+   background-color: rgb(255, 169, 184); 
 }
 
-#done{
-   background-color: rgb(244, 98, 123); 
-}
-
-h3{
+h3{ /*Progress bar title*/
     padding-bottom: 0;
+    margin-bottom: 0;
 }
 
-.ec{
+.ec{ /*Number of gotten EC in the progress bar area*/
     margin-left: -860px;
-    margin-top: -42px;
+    margin-top: -56px;
 }
 
-.vertical-line{
+.vertical-line{ /*Red line that determines the NBSA boundary*/
     border-left: 4px solid red;
-    height: 25px;
+    height: 26px;
     margin-left: 910px;
-    margin-top: -36px;
+    margin-top: -38px;
     margin-bottom: 40px;
+    position: relative; /*Puts the red line of NBSA boundary on top*/
+    z-index: 2; /*Puts the red line of NBSA boundary on top*/
 }
