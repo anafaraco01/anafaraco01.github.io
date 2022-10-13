@@ -14,11 +14,19 @@ td{ /*Border for the whole table*/
     border: 2px solid black;
 }
 
-th{ /*Headings in the table*/
-    border: 4px solid black;
+th{ /*Top row of headings in the table*/
+    background-color: rgb(220, 41, 112);
 }
 
-th, td{ 
+.headings{ /* Class given to the column of Semester and Block*/
+    font-weight: bold;
+}
+
+th, .headings{
+    border: 4px solid black;
+}    
+
+td{ 
     background-color: beige;
 }
 
@@ -26,7 +34,19 @@ table{
     margin-left: 0;
 }
 
-progress{ /*Progress bar*/
+#done{ /*Class assigned to current or done courses*/
+    background-color: rgb(255, 169, 184); 
+}
+
+#fail{
+    background-color: rgb(255, 0, 0); 
+}
+
+#resit{
+    background-color: rgb(238, 255, 0); 
+}
+
+progress{ 
     width: 800px;
     background-color: green;
 }
@@ -43,10 +63,6 @@ progress{ /*Progress bar*/
 #nbsa, #nbsa-boundary{
     margin-left: 400px;
     margin-top: 0;
-}
-
-#done{ /*Class assigned to current or done courses*/
-   background-color: rgb(255, 169, 184); 
 }
 
 h3{ /*Progress bar title*/

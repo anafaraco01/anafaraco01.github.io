@@ -12,12 +12,12 @@
   </head>
 
   <body>
-    <header><!--Header (Dashboard, Phrase)-->
+    <header>
       <h1>DASHBOARD</h1>
       <h2>Ready to see your progress?</h2>
     </header>
 
-    <nav><!--Navigation Bar-->
+    <nav>
       <ul class="nav">
         <li class="nav"><a class="nav" href="../index.html">Home</a></li>
         <li class="nav"><a class="nav" href="profile.html">Profile</a></li>
@@ -29,16 +29,18 @@
 
     <main>
       <h1>ICT FIRST YEAR</h1>
-      <table><!--The id 'done' is given to the current or completed subjects-->
+      <table><!--The id 'done' is given to the current or completed subjects, the id 'fail' is given to failing classes and the id 'resit' is given to classes that need to be resited-->
         <tr><!--First Row, Headings-->
-          <th rowspan="8" id="done">Semester 1</th>
-          <th rowspan="6" id="done">Block 1<br>Computer Science</th>
-          <th id="done">Course</th>
-          <th id="done">EC</th> 
-          <th id="done">Exam</th>
-          <th id="done">Grade</th>
+          <th>Semester</th>
+          <th>Block</th>
+          <th>Course</th>
+          <th>EC</th> 
+          <th>Exam</th>
+          <th>Grade</th>
         </tr>
         <tr><!--Block 1-->
+          <td class="headings" rowspan="7" id="done">1</td>
+          <td class="headings" rowspan="5" id="done">1<br>Computer Science</td>
           <td id="done">Program- & Career Orientation (PCO)</td>
           <td>2.5</td>
           <td>Assessment website</td> 
@@ -57,7 +59,7 @@
           <td>*</td>
         </tr>
         <tr>
-          <td> IT Personality Project Week 1 (PPW1)</td>
+          <td>IT Personality Project Week 1 (PPW1)</td>
           <td>1.25</td>
           <td>Portfolio</td> 
           <td>*</td>
@@ -69,7 +71,7 @@
           <td>*</td>
         </tr>
         <tr><!--Block 2-->
-          <th rowspan="2">Block 2<br>Game Development</th>
+          <td class="headings" rowspan="2">2<br>Game Development</td>
           <td rowspan="2">Object-Oriented programming (OOP)</td>
           <td rowspan="2">10</td>
           <td>Presentation</td>
@@ -80,8 +82,8 @@
           <td>*</td>
         </tr>
         <tr><!--Block 3-->
-          <th rowspan="11">Semester 2</th>
-          <th rowspan="4">Block 3<br>Modern Software Development</th> 
+          <td class="headings" rowspan="11">2</td>
+          <td class="headings" rowspan="4">3<br>Modern Software Development</td> 
           <td>Framework Development 1 (FDE1)</td>
           <td>5</td>
           <td>Case study exam</td>
@@ -102,7 +104,7 @@
           <td>*</td>
         </tr>
         <tr><!--Block 4-->
-          <th rowspan="7">Block 4<br>Modern Software Development</th> 
+          <td class="headings" rowspan="7">4<br>Modern Software Development</td> 
           <td rowspan="3">Framework Project 2 (FPR2)</td>
           <td rowspan="3">10</td>
           <td>Final delivery</td>
